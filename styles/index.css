@@ -1,4 +1,4 @@
-main {
+body {
     font-family: 'Poppins', sans-serif;
 }
 
@@ -59,7 +59,7 @@ ul {
     list-style-type: none;
 }
 
-li {
+.nav__item {
     display: inline;
     padding: 10px;
 }
@@ -71,7 +71,6 @@ li {
 }
 
 .nav__links {
-    font-family: 'Poppins', sans-serif;
     font-weight: normal;
     font-weight: normal;
     font-size: 14px;
@@ -95,6 +94,7 @@ li {
 .btn__sign-in {
     color: #173a56;
     border: 2px solid #bcd0e5;
+    background: none;
 }
 
 .btn__sign-up {
@@ -102,28 +102,6 @@ li {
     color: #ffff;
     border:none;
 }
-
-
-
-
-
-/* .logo, .nav__bar {
-    display: inline-flex;
-
-}
-
-.list__nav {
-    display: flex;
-    flex-direction: row;
-} */
-
-
-/* .container {
-    display: flex;
-    flex-flow: row wrap;
-    margin-left: 145px;
-    margin-left: 145px;
-} */
 
 .super-container {
     display: flex;
@@ -251,3 +229,32 @@ li {
 }
 
 
+.footer__container {
+    width: 1110px;
+    height: 308px;
+    margin-left: 145px;
+    padding: 50px;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+.footer__logo {
+    align-self: flex-start;
+}
+
+.footer__list {
+    font-style: normal;
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 35px;
+    /* or 219% */
+    color:#544837
+}
+
+.searchbar {
+    width: 325px;
+    height: 48px;
+    border-radius: 5px;
+    border: 2px solid #bcd0e5;
+}
