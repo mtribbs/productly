@@ -55,19 +55,67 @@ p {
     color: #544837;
 }
 
+ul {
+    list-style-type: none;
+}
 
-.logo, .nav__bar {
-    list-style: none;
+li {
+    display: inline;
+    padding: 10px;
+}
+
+.navbar {
+    display:flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.nav__links {
+    font-family: 'Poppins', sans-serif;
+    font-weight: normal;
+    font-weight: normal;
+    font-size: 14px;
+    line-height: 28px;
+    /* identical to box height, or 200% */
+    color: #2f281e;
+}
+
+.nav__btn {
+    width: 102px;
+    height: 46px;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 24px;
+    /* identical to box height */
+    border-radius: 5px;
+    margin:5px;
+}
+
+.btn__sign-in {
+    color: #173a56;
+    border: 2px solid #bcd0e5;
+}
+
+.btn__sign-up {
+    background-color:#FF9900;
+    color: #ffff;
+    border:none;
+}
+
+
+
+
+
+/* .logo, .nav__bar {
     display: inline-flex;
 
 }
 
 .list__nav {
-    list-style: none;
     display: flex;
     flex-direction: row;
-    justify-content: space-around;
-}
+} */
 
 
 /* .container {
@@ -77,7 +125,7 @@ p {
     margin-left: 145px;
 } */
 
-.container-super {
+.super-container {
     display: flex;
     flex-direction: row;
     justify-content: space-evenly;
@@ -120,14 +168,14 @@ p {
     background:none;
 }
 
-.container-tools {
+.tools-container {
     display: flex;
     flex-direction: column;
     align-items: center;
     margin-bottom: 210px;
 }
 
-.card-tools {
+.tools-card {
     display: flex;
     flex-direction: row;
     justify-content: space-between;
@@ -166,18 +214,14 @@ p {
     margin-left: 145px;
 }
 
-.card-pro, .card-managers, .card-marketers {
+.pro-card, .managers-card, .marketers-card {
     display: flex;
     justify-content: space-around;
     margin-bottom: 120px;
 }
 
-.content-pro, .content-managers, .content-marketers {
+.pro-content, .managers-content, .marketers-content {
     width: 486px;
-}
-
-ul {
-    list-style-type: none;
 }
 
 .fa-check {
