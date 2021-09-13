@@ -8,35 +8,38 @@
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;700&display=swap" rel="stylesheet">">
+    <script src="https://kit.fontawesome.com/9ea22a13b1.js" crossorigin="anonymous"></script>
     <link rel="stylesheet" href="styles/index.css">
     <title>Productly</title>
 </head>
 <body>
     <header>
-        <div>
-            <h3 class="logo header-logo"></h3>
-            <nav class="nav__bar">
-                <ul class="list__nav">
-                    <li>Product</li>
-                    <li>Customers</li>
-                    <li>Pricing</li>
-                    <li>Resources</li>
-                </ul>
-                <button class="btn__nav btn_sign-up">Sign In</button>
-                <button class="btn__nav btn_sign-up">Sign Up</button>
-            </nav>
-        </div>
+        <h3 class="logo header-logo">Productly</h3>
+        <nav class="nav__bar">
+            <ul class="list__nav">
+                <li><a href="">Product</a></li>
+                <li><a href="">Customers</a></li>
+                <li><a href="">Pricing</a></li>
+                <li><a href="">Resources</a></li>
+            </ul>
+            <button class="btn__nav btn_sign-up">Sign In</button>
+            <button class="btn__nav btn_sign-up">Sign Up</button>
+        </nav>
     </header>
+    
     <main>
-        <div class="container">
-            <div class="card superpowers">
-                <div class="card__content">
-                    <h2 class="card__title">The Design Thinking superpowers</h2>
-                    <p class="card__info">Tools, tutorials, design and innovation experts, all in one place! 
+        <div class="container container-super">
+            <div class="card super-card">
+                <div class="card__content super-content">
+                    <h1 class="card__title">The Design Thinking superpowers</h1>
+                    <p class="card__info super-info">Tools, tutorials, design and innovation experts, all in one place! 
                         The most intuitive way to imagine your next user experience.</p>
                     <button class="card__btn btn-get-started"> Get Started</button>
-                    <button class="card__btn btn-video">Watch the Video</button>
+                    <button class="card__btn btn-video"><i class="fas fa-play"></i>Watch the Video</button>
                 </div>
+            </div>
+            <div class="card__img super-img">
+                <img src="/images/superpowers.png" alt="Happy people jumping in the air">
             </div>
         </div>
         <div class="container container-tools">
@@ -150,7 +153,7 @@
                 <li>Terms of Service</li>
             </ul>
             <!--field-->
-            <button class="footer__btn">Sign Up Now</button>
+            <button class="footer__btn">Sign Up</button>
         </div>
     </footer>
 </body>
