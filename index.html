@@ -4,6 +4,11 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles/normalize.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;700&display=swap" rel="stylesheet">">
+    <link rel="stylesheet" href="styles/index.css">
     <title>Productly</title>
 </head>
 <body>
@@ -11,9 +16,14 @@
         <div>
             <h3 class="logo header-logo"></h3>
             <nav class="nav__bar">
-                <ul class="list__nav"></ul>
-                <button class="btn__nav btn_sign-up"></button>
-                <button class="btn__nav btn_sign-up"></button>
+                <ul class="list__nav">
+                    <li>Product</li>
+                    <li>Customers</li>
+                    <li>Pricing</li>
+                    <li>Resources</li>
+                </ul>
+                <button class="btn__nav btn_sign-up">Sign In</button>
+                <button class="btn__nav btn_sign-up">Sign Up</button>
             </nav>
         </div>
     </header>
@@ -21,41 +31,105 @@
         <div class="container">
             <div class="card superpowers">
                 <div class="card__content">
-                    <h2 class="card__title"></h2>
-                    <p class="card__info"></p>
-                    <button class="card__btn btn-get-started"></button>
-                    <button class="card__btn btn-video"></button>
+                    <h2 class="card__title">The Design Thinking superpowers</h2>
+                    <p class="card__info">Tools, tutorials, design and innovation experts, all in one place! 
+                        The most intuitive way to imagine your next user experience.</p>
+                    <button class="card__btn btn-get-started"> Get Started</button>
+                    <button class="card__btn btn-video">Watch the Video</button>
                 </div>
             </div>
         </div>
-        <div class="container">
-            <div class="card tools">
-                <div class="card__content">
-                    <h2 class="card__title"></h2>
-                    <ul class="card__list tools-list"></ul>
-                    <button class="card__btn btn-sign-now"></button>
+        <div class="container container-tools">
+            <div class="card card-tools">
+                <h2 class="card__title">We design tools to unveil your superpowers</h2>
+                <div class="card__min">
+                    <div class="card__min__content">
+                        <img class="card__min__icon" src="" alt="">
+                        <h3 class="card__min__title">First click test</h3>
+                        <p class="card__min__content">While most people enjoy casino gambling,</p>
+                    </div>
                 </div>
+                <div class="card__min">
+                    <div class="card__min__content">
+                        <img class="card__min__icon" src="" alt="">
+                        <h3 class="card__min__title">Design surveys</h3>
+                        <p class="card__min__content">Sports betting, lottery and bingo playing for the fun</p>
+                    </div>
+                </div>
+                <div class="card__min">
+                    <div class="card__min__content">
+                        <img class="card__min__icon" src="" alt="">
+                        <h3 class="card__min__title">Preference test</h3>
+                        <p class="card__min__content">The Myspace page defines the individual.</p>
+                    </div>
+                </div>
+                <div class="card__min">
+                    <div class="card__min__content">
+                        <img class="card__min__icon" src="" alt="">
+                        <h3 class="card__min__title">Five second tests</h3>
+                        <p class="card__min__content">Personal choices and the overall personality of the person. </p>
+                    </div>
+                </div>
+                <button class="card__btn btn-sign-now">SIGN UP NOW</button>
             </div>
         </div>
         <div class="container main__info">
             <div class="card card-pro">
                 <div class="card__content content-pro">
-                    <h2 class="card__title"></h2>
-                    <p class="card__info"></p>
+                    <div class="card__title">
+                        <p class="card__title_small">Effortless Validation for</p>
+                        <h2 class="card__title">Design Professionals</h2>
+                    </div>
+                    <div class="card__info">
+                        <p class="card__info__text">The Myspace page defines the individual, his or her characteristics, traits, 
+                        personal choices and the overall personality of the person. </p>
+                        <h4 class="card__info__heading"> Accessory makers</h4>
+                        <p class="card__info__text">While most people enjoy casino gambling, sports betting, 
+                            lottery and bingo playing for the fun</p>
+                        <h4 class="card__info__heading">Alterationists</h4>
+                        <p class="card__info__text">If you are looking for a new way to promote your business 
+                            that won’t cost you more money,</p>
+                        <h4 class="card__info__heading">Custom Design designers</h4>
+                        <p class="card__info__text">If you are looking for a new way to promote your business 
+                            that won’t cost you more money,</p>
+                    </div>
                     <img class="card__img" src="" alt="">
                 </div>
             </div>
             <div class="card card-managers">
-                <div class="card__content">
+                <div class="card__content content-managers">
                     <img class="card__img" src="" alt="">
-                    <h2 class="card__title"></h2>
-                    <p class="card__info"></p>
-                    <ul class="card__list list-managers"></ul>
+                    <div class="card__title">
+                        <p class="card__title__small">Easier decision making for</p>
+                        <h2 class="card__title__large">Product Managers</h2>
+                    </div>
+                    <div class="card__info">
+                        <p class="card__info__text">The Myspace page defines the individual, his or her characteristics, traits, 
+                            personal choices and the overall personality of the person.</p>
+                    </div>
+                    <ul class="card__list list-managers">
+                        <li>The Myspace page defines the individual, his or her characteristics, traits, personal choices and the overall personality of the person. </li>
+                        <li>We will only switch you to energy companies that we trust and will treat you right</li>
+                        <li>We track the markets daily and know where the savings are.</li>
+                    </ul>
                 </div>
             </div>
             <div class="card card-marketers">
-                <div class="card__content">
-                    <h2 class="card__title"></h2>
+                <div class="card__content marketers-content">
+                    <div class="card__title">
+                        <p class="card__title__small">Optimisation for</p>
+                        <h2 class="card__title__large">Marketers</h2>
+                    </div>
+                    <div class="card__info">
+                        <p class="card__info__text">Few would argue that, despite the advancements of feminism over the past three decades, 
+                            women still face a double standard when it comes to their behavior.</p>
+                        <h4 class="card__info__heading">Accessory makers</h4>
+                        <p class="card__info__text">While most people enjoy casino gambling, sports betting, lottery and bingo playing for the fun</p>
+                        <h4 class="card__info__heading">Alterationists</h4>
+                        <p class="card__info__text">If you are looking for a new way to promote your business that won’t cost you more money,</p>
+                        <h4 class="card__info__heading">Custom Design designers</h4>
+                        <p class="card__info__text">If you are looking for a new way to promote your business that won’t cost you more money,</p>
+                    </div>
                     <p class="card__info"></p>
                     <img class="card__image" src="" alt="">
                 </div>
@@ -65,9 +139,18 @@
     <footer>
         <h3 class="logo footer-logo"></h3>
         <div class="footer__content">
-            <p class="footer__info"></p>
+            <ul class="footer__info__list">
+                <li>About Us</li>
+                <li>Blog</li>
+                <li>Contact</li>
+                <li>FAQ</li>
+                <li>Disclaimer</li>
+                <li>Financing</li>
+                <li>Privacy Policy</li>
+                <li>Terms of Service</li>
+            </ul>
             <!--field-->
-            <button class="footer__btn"></button>
+            <button class="footer__btn">Sign Up Now</button>
         </div>
     </footer>
 </body>
