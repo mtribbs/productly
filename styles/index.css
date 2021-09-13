@@ -46,7 +46,7 @@ p {
     color: #544837;
 }
 
-.superpowers-info {
+.super-info {
     font-style: normal;
     font-weight: normal;
     font-size: 18px;
@@ -69,49 +69,141 @@ p {
     justify-content: space-around;
 }
 
-/* main {
-    display: flex;
-    flex-direction: column;
-} */
 
-.container {
+/* .container {
     display: flex;
     flex-flow: row wrap;
+    margin-left: 145px;
+    margin-left: 145px;
+} */
+
+.container-super {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    margin-bottom: 110px;
+    margin-left: 145px;
+    margin-left: 145px;
 }
 
 .super-card {
     width: 518px;
     height: 331px;
-    margin-left: 145px;
+    margin-top: 100px;
 }
 
 .super-info {
     width: 458px;
-    margin-bottom: 45px;
 }
 
+.btn-get-started, .btn-video {
+    border:none;
+    font-style: normal;
+    font-size: 16px;
+    line-height: 24px;
+    /* identical to box height */
+    margin-top: 45px;
+}
 .btn-get-started {
     background-color: #FF9900;
     width: 175px;
     height: 53px;
-    border: none;
     border-radius: 5px;
-    font-style: normal;
     font-weight: bold;
-    font-size: 16px;
-    line-height: 24px;
-    /* identical to box height */
     color: #ffff;
     margin-right: 30px;
 }
 .btn-video {
     color:#FF9900;
-    font-style: normal;
     font-weight: 600;
+    text-decoration-line: underline;
+    background:none;
+}
+
+.container-tools {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-bottom: 210px;
+}
+
+.card-tools {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.card__min {
+    display: flex;
+    flex-direction: column;
+    width: 240px;
+    margin: 20px;
+}
+
+.tools-title {
+    width: 539px;
+    height: 108px;
+    text-align: center;
+}
+
+.btn-sign-now {
+    background-color: #FF9900;
+    width: 175px;
+    height: 53px;
+    border-radius: 5px;
+    font-weight: bold;
+    color: #ffff;
+    border:none;
+    font-style: normal;
     font-size: 16px;
     line-height: 24px;
     /* identical to box height */
-    text-decoration-line: underline;
-    border: none;
-    background:none;
+    margin-top: 34px;
 }
+
+.main__info {
+    margin-left: 145px;
+    margin-left: 145px;
+}
+
+.card-pro, .card-managers, .card-marketers {
+    display: flex;
+    justify-content: space-around;
+    margin-bottom: 120px;
+}
+
+.content-pro, .content-managers, .content-marketers {
+    width: 486px;
+}
+
+ul {
+    list-style-type: none;
+}
+
+.fa-check {
+    font-weight: bold;
+    background-color: #FF9900;
+    color: #ffff;
+    padding: 8px;
+    border-radius: 10px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    margin-left: 0px;
+    margin-right: 0px;
+}
+
+.card__checklist {
+   width: 450px;
+   display: flex;
+}
+
+.checklist-symbols {
+    display: flex;
+    flex-direction: column;
+}
+
+.card__title__small {
+    transform: translateY(20px);
+}
+
+
