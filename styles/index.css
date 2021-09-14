@@ -60,10 +60,15 @@ ul {
     padding: 10px;
 }
 
+
 .navbar {
+    margin-left: 100px;
     display:flex;
     justify-content: space-around;
     align-items: center;
+    /* margin-top: 10px;
+    position: sticky; /* tried this to experiment but it did't work*/
+    top: 30px;  */
 }
 
 .nav__links {
@@ -260,4 +265,21 @@ ul {
     height: 48px;
     border-radius: 5px;
     border: 2px solid #bcd0e5;
+}
+
+button:hover {
+    transform: scale(1.1);
+}
+
+a:link {
+    text-decoration: none;
+    color: #2f281e;;
+}
+
+a:visited {
+    color: #2d66a3;
+}
+
+a:hover {
+    color: #FF9900;
 }
