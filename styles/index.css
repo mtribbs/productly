@@ -51,6 +51,27 @@ p {
 
 /* display */
 
+/* body {
+    max-width: 1400px;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+    flex-direction: column;
+} */
+
+body {
+    max-width: 1400px;
+    width: 100%;
+}
+
+.main {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: flex-start;
+}
+
 ul {
     list-style-type: none;
 }
@@ -60,15 +81,14 @@ ul {
     padding: 10px;
 }
 
-
 .navbar {
-    margin-left: 100px;
     display:flex;
-    justify-content: space-around;
     align-items: center;
-    /* margin-top: 10px;
-    position: sticky; /* tried this to experiment but it did't work*/
-    top: 30px;  */
+    justify-content: space-around;
+}
+
+.nav__logo {
+    transform: translateX(-50px);
 }
 
 .nav__links {
@@ -104,23 +124,27 @@ ul {
     border:none;
 }
 
+.container {
+    margin-top: 100px;
+    margin-bottom: 100px;
+}
+
+
 .container--superpower {
     display: flex;
     flex-direction: row;
     justify-content: space-evenly;
-    margin-bottom: 110px;
-    margin-left: 145px;
-    margin-left: 145px;
 }
 
 .card--superpower {
-    width: 518px;
-    height: 331px;
-    margin-top: 100px;
+    max-width: 518px;
+    width: 100%;
+    min-height: 331px;
 }
 
 .info--superpower {
-    width: 458px;
+    max-width: 458px;
+    width: 100%;
     font-style: normal;
     font-weight: normal;
     font-size: 18px;
@@ -140,8 +164,9 @@ ul {
 
 .btn--get-started {
     background-color: #FF9900;
-    width: 175px;
-    height: 53px;
+    max-width: 175px;
+    width: 100%;
+    min-height: 53px;
     border-radius: 5px;
     font-weight: bold;
     color: #ffff;
@@ -159,7 +184,6 @@ ul {
     display: flex;
     flex-direction: column;
     align-items: center;
-    margin-bottom: 210px;
 }
 
 .card--tools {
@@ -169,22 +193,22 @@ ul {
 }
 
 .title--tools {
-    width: 539px;
-    height: 108px;
+    max-width: 539px;
+    width: 100%;
+    min-height: 108px;
     text-align: center;
 }
 
 .card__inner {
     display: flex;
     flex-direction: column;
-    width: 240px;
+    max-width: 240px;
+    width: 100%;
     margin: 20px;
 }
 
 .btn--sign-now {
     background-color: #FF9900;
-    width: 175px;
-    height: 53px;
     border-radius: 5px;
     font-weight: bold;
     color: #ffff;
@@ -193,22 +217,19 @@ ul {
     font-size: 16px;
     line-height: 24px;
     /* identical to box height */
-    margin-top: 34px;
-}
-
-.container--main {
-    margin-left: 145px;
-    margin-left: 145px;
+    padding: 15px;
 }
 
 .card--professionals, .card--managers, .card--marketers {
     display: flex;
     justify-content: space-around;
-    margin-bottom: 120px;
+    margin-top: 50px;
+    margin-bottom: 50px;
 }
 
 .content--professionals, .content--managers, .content--marketers {
-    width: 486px;
+    max-width: 486px;
+    width: 100%;
 }
 
 .fa-check {
@@ -224,7 +245,8 @@ ul {
 }
 
 .card__checklist {
-   width: 450px;
+   max-width: 450px;
+   width: 100%;
    display: flex;
 }
 
@@ -238,12 +260,11 @@ ul {
 }
 
 .footer__container {
-    width: 1110px;
-    height: 308px;
-    margin-left: 145px;
-    padding: 50px;
+    max-width: 1400px;
+    width: 100%;
+    min-height: 308px;
     display: flex;
-    justify-content: space-evenly;
+    justify-content: space-around;
     align-items: center;
 }
 
@@ -261,10 +282,15 @@ ul {
 }
 
 .searchbar {
-    width: 325px;
-    height: 48px;
+    max-width: 325px;
+    width: 100%;
+    min-height: 48px;
     border-radius: 5px;
     border: 2px solid #bcd0e5;
+}
+
+.footer__btn {
+    margin-top: 15px;
 }
 
 button:hover {
